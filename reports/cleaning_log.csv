@@ -1,0 +1,9 @@
+step,rows
+raw rows,811019
+1. has a narrative,265405
+3. not empty after cleaning,265392
+4. drop conflicting labels,239885
+5. dedupe cleaned text (keep earliest),138042
+split: train,77504
+split: valid,18093
+split: test,42445

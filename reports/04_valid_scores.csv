@@ -1,0 +1,3 @@
+model,macro_f1,weighted_f1,accuracy
+tfidf + logreg (balanced),0.673,0.836,0.826
+"minilm + logreg (balanced, C=1.0)",0.598,0.798,0.771

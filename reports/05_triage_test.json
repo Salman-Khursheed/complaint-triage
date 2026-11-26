@@ -1,0 +1,17 @@
+{
+  "model": "tfidf + logreg (default)",
+  "threshold": 0.73,
+  "test_rows": 42445,
+  "macro_f1": 0.6493,
+  "weighted_f1": 0.8167,
+  "accuracy_all": 0.827,
+  "coverage": 0.6554,
+  "auto_accuracy": 0.9341,
+  "n_auto": 27819,
+  "n_to_human": 14626,
+  "human_queue_accuracy_if_auto": 0.6232,
+  "chosen_on": "validation (2025-01-25 to 2025-01-31)",
+  "target_auto_accuracy": 0.95,
+  "valid_coverage": 0.7255,
+  "valid_auto_accuracy": 0.9513
+}
