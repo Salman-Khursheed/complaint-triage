@@ -1,11 +1,7 @@
 # Complaint Triage with NLP
 
-Route consumer complaints to the right product team automatically, using only the text the customer wrote. Complaints the model isn't confident about go to a person.
+Route consumer complaints to the right product team automatically, using only the text the customer wrote. Complaints the model isn't confident about, go to a person.
 
-Project 3 of 3 in my data portfolio:
-1. [Citi Bike Rebalancing](https://github.com/Salman-Khursheed/citibike-rebalancing): data analysis (done)
-2. Hospital Readmission Risk: classification on tabular data (done, v1)
-3. **Complaint Triage**: classification on text (this repo)
 
 ## Result in one line
 
