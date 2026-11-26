@@ -82,6 +82,12 @@ complaint-triage/
   reports/           figures/, findings.md, results_summary.md, score files
 ```
 
+## Project outcomes
+
+- Built an NLP classifier that routes consumer complaints to **10 product teams** from free text, trained on **138,042** cleaned and deduplicated CFPB complaint narratives (from 811,019 raw rows).
+- Designed confidence-based triage: on February test data, never seen in training, the model **auto-routes 65.5% of complaints at 93.4% accuracy** and sends the remaining 34.5% to people (macro-F1 **0.649**).
+- Compared TF-IDF + logistic regression with MiniLM sentence embeddings (macro-F1 **0.673 vs 0.598** on validation), used a time-based split that exposed real drift (95% target on validation, 93.4% on test), and hand-reviewed 30 confident errors (**20 of 30** were multi-product or label-noise cases).
+
 ## How to run
 
 1. Download `CCDB_Export_9_January_2025_through_February_2025.zip` from the narratives archive into `data/raw/`.
